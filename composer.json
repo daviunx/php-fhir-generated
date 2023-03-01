@@ -1,0 +1,32 @@
+{
+  "name": "daviunx/php-fhir-generated",
+  "type": "library",
+  "license": "Apache-2.0",
+  "description": "Pre-generated classes from dcarbone/php-fhir",
+  "homepage": "https://github.com/daviunx/php-fhir-generated",
+  "keywords": [
+    "php",
+    "fhir",
+    "ehr",
+    "hl7",
+    "php-fhir"
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ext-libxml": "*",
+    "ext-json": "*",
+    "ext-simplexml": "*"
+  },
+  "require-dev": {
+    "ext-libxml": "*",
+    "ext-json": "*",
+    "ext-simplexml": "*",
+    "ext-curl": "*",
+    "phpunit/phpunit": "@stable"
+  },
+  "autoload": {
+    "psr-0": {
+      "HL7\\FHIR\\R4\\": "src/DCarbone/PHPFHIRGenerated/R4"
+    }
+  }
+}
